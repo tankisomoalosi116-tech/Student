@@ -1,0 +1,161 @@
+body {
+ 
+ font-family: Arial, sans-serif;
+ 
+ color: #333;               /* dark gray text */
+  
+ background-color: #f9f9f9;  /* light gray background */
+ 
+ margin: 0; 
+ 
+ padding: 0;
+ 
+ line-height: 1.6;
+
+}  
+
+header {
+ background-color: #3f0568;  /* rich purple */
+ 
+ color: white;
+ 
+ padding: 20px;
+  
+ text-align: center;
+
+}
+
+header h1 {
+ 
+ margin: 0;
+
+}
+
+nav a {
+  
+ color: white;
+  
+ text-decoration: none;
+  
+ margin: 0 10px;
+
+}
+
+nav a:hover {
+ 
+ text-decoration: underline;
+
+}
+
+main {
+ 
+ padding: 20px;
+ 
+ max-width: 800px;
+ 
+ margin: 0 auto;            /* centers the content */
+
+}
+
+main img {
+ max-width: 100%;
+ 
+ height: auto;
+ 
+ display: block;
+ 
+ margin: 20px 0;
+
+}
+
+footer {
+ 
+ background-color: #333;
+ 
+ color: white;
+ 
+ text-align: center;
+ 
+ padding: 10px;
+ 
+ position: fixed;
+ 
+ bottom: 0;
+ 
+ width: 100%;
+
+}
+
+p {
+ 
+ font-size: 1.1em;
+
+}
+
+a {
+ 
+ color: #6a0dad;            /* purple links */
+ 
+ text-decoration: none;
+}
+
+a:hover {
+ 
+ text-decoration: underline;
+}
+
+img {
+ 
+ border: 5px solid #6a0dad; /* purple border around images */
+ 
+ border-radius: 10px;       /* rounded corners */
+}
+
+/* Budget Table Styling */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #3f0568;  /* same rich purple as header */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6a0dad;  /* same purple as links */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2e6ff;  /* very light purple */
+}
+
+/* Form Styling */
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #3f0568;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3f0568;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a0dad;
+}
